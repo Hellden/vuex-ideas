@@ -11,7 +11,7 @@
 export default {
   computed: {
     allIdeas() {
-      return this.$store.getters("allIdeas");
+      return this.$store.getters.allIdeas;
     }
   }
 };
